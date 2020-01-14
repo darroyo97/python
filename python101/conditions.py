@@ -25,4 +25,19 @@
 # print(3 == 3 and (not ("testing" == "testing" or "Python" == "Fun")))
 
 
-# if
+# if statement
+
+age = 21
+name = "Sunny"
+
+if (age == 21):
+    print("Whats good lil ma!")
+
+if (age <= 21):
+    print("No No No")
+
+
+# name = input("Enter your name: ")
+
+# if (name == "Sunny"):
+#     print(name)
