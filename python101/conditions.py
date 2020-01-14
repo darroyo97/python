@@ -27,17 +27,58 @@
 
 # if statement
 
-age = 21
-name = "Sunny"
+# age = 21
+# name = "Sunny"
 
-if (age == 21):
-    print("Whats good lil ma!")
+# if (age == 21):
+#     print("Whats good lil ma!")
 
-if (age <= 21):
-    print("No No No")
+# if (age <= 21):
+#     print("No No No")
 
 
 # name = input("Enter your name: ")
 
 # if (name == "Sunny"):
 #     print(name)
+
+
+# if else statement
+# if condition:
+#   write statement here
+# else:
+#   write statement here
+
+# age = int(input("Enter age:"))
+
+# if age >= 21:
+#     print("You get free beer")
+# else:
+#     print("Sorry no beer for you")
+
+# elif statement
+# if condition :
+#   write statement here
+# elif condition 2:
+#   write statement here
+# else:
+#   write statement here
+
+# age = int(input("Enter age:"))
+# if age >= 21:
+#     print("You get free beer")
+# elif age <= 18:
+#     print("What are you even doing here?")
+# else:
+#     print("Sorry no beer for you")
+
+
+name_of_user = input("What is your name ?")
+length_of_name = len(name_of_user)
+
+if length_of_name > 0:
+    name_of_friend = input("What is your friend's name?")
+    greeting = f'Hello {name_of_user}, its very nice to meet you and your friend{name_of_friend}'
+    print(greeting)
+else:
+    print("Ok ill ask again some other time")
