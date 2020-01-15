@@ -1,4 +1,4 @@
-bill = int(input("How much was bill?  "))
+bill = float(input("How much was bill?  "))
 level = input("Level of service? good, fair, or bad: ")
 level_lower = level.lower()
 
