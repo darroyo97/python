@@ -26,8 +26,8 @@
 
 # Extend() Method
 
-todos = ["pet the cat", "go to work", "shop for groceries",
-         "go home", "feed the cat"]
+todos = ["pet the cat", "go to work",
+         "shop for groceries", "go home", "feed the cat"]
 
 todos.extend(["binge watch a show", "go to sleep"])
 
