@@ -74,3 +74,22 @@
 # getGroceries()
 # getGroceries()
 # getGroceries()
+
+
+# Nested Functions
+
+def separateRuns():
+    print('******************')
+    print()
+
+
+def getGroceries():
+    print('milk')
+    print('flour')
+    print('sugar')
+    print('butter')
+    separateRuns()
+
+
+getGroceries()
+getGroceries()
