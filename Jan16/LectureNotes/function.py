@@ -112,10 +112,17 @@
 # The argument replaces the value of the param in the function
 
 
-def add(num1, num2):
-    print(num1 + num2)
+# def add(num1, num2):
+#     # print(num1 + num2)
+#     return (num1 + num2)
+#     # example for showing result is important
 
 
-add(2, 5)
-# print(num1)
-# we  cannot acces this, error because that store in our local memory
+# # add(2, 5)
+# # print(num1)
+# # we  cannot acces this, error because that store in our local memory
+
+# result = add(2, 5)
+# print(result)
+# # this would not work because result had no value we going to need a return
+# # we get nothing (line 117) with no return
