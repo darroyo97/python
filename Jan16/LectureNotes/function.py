@@ -103,10 +103,19 @@
 
 # indented block of code
 
-def greeting(person):
-    print(f'Hello {person}')
+# def greeting(person):
+#     print(f'Hello {person}')
 
 
-greeting("Kazim")
+# greeting("Kazim")
 
 # The argument replaces the value of the param in the function
+
+
+def add(num1, num2):
+    print(num1 + num2)
+
+
+add(2, 5)
+# print(num1)
+# we  cannot acces this, error because that store in our local memory
