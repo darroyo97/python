@@ -126,3 +126,13 @@
 # print(result)
 # # this would not work because result had no value we going to need a return
 # # we get nothing (line 117) with no return
+
+# showing how important the order of an argument is
+# def make_formal_greeting(name, title):
+#     return f"This is {name}, the {title}!"
+
+
+# result = make_formal_greeting("Rob Stark", "King in the North")
+# print(result)
+# oops = make_formal_greeting("King in the North", "Rob Stark")
+# print(oops)
