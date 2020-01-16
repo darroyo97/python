@@ -163,12 +163,12 @@
 #     "Please provide a list of numbers seprated ny a comma: example. 1,2,3,4:  ")
 # https://stackoverflow.com/questions/29358402/python-turning-user-input-into-a-list
 
-def avg(user_list):
-    return sum(user_list) / len(user_list)
+# def avg(user_list):
+#     return sum(user_list) / len(user_list)
 
 
-# found this code on stackoverflow to use user input
-# user_list = list(map(float, user_input.split(',')))
-user_list = [1, 2, 3, 4]
-average = avg(user_list)
-print(average)
+# # found this code on stackoverflow to use user input
+# # user_list = list(map(float, user_input.split(',')))
+# user_list = [1, 2, 3, 4]
+# average = avg(user_list)
+# print(average)
