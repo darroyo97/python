@@ -78,18 +78,35 @@
 
 # Nested Functions
 
-def separateRuns():
-    print('******************')
-    print()
+# def separateRuns():
+#     print('******************')
+#     print()
 
 
-def getGroceries():
-    print('milk')
-    print('flour')
-    print('sugar')
-    print('butter')
-    separateRuns()
+# def getGroceries():
+#     print('milk')
+#     print('flour')
+#     print('sugar')
+#     print('butter')
+#     separateRuns()
 
 
-getGroceries()
-getGroceries()
+# getGroceries()
+# getGroceries()
+
+# Calling a function with parameters
+# Receiving data in a user-defined function: parameters
+
+# A parameter is a variable that an argument is stored in when a function is called.
+
+# def funcName(parameters):
+
+# indented block of code
+
+def greeting(person):
+    print(f'Hello {person}')
+
+
+greeting("Kazim")
+
+# The argument replaces the value of the param in the function
