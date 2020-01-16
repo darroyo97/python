@@ -136,3 +136,13 @@
 # print(result)
 # oops = make_formal_greeting("King in the North", "Rob Stark")
 # print(oops)
+
+
+def concat(list1, list2):
+    conca = list1 + list2
+    return conca
+
+
+c_result = concat([1, 2, 3], [4, 5, 6])
+
+print(c_result)
