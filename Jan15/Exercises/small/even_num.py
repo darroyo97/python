@@ -4,4 +4,4 @@ list2 = []
 for even_num in list1:
     if even_num % 2 == 0:
         list2.append(even_num)
-        print(list2)
+print(list2)
