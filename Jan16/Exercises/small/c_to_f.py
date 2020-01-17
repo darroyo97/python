@@ -1,4 +1,4 @@
-cel = int(input("Type celsius: "))
+cel = float(input("Type celsius: "))
 
 
 def conv(cel):
