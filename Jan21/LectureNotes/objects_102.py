@@ -253,19 +253,44 @@
 # Actions on the child alter the action on the parent.
 
 
-class Parent(object):
-    def altered(self):
-        print("PARENT altered()")
+# class Parent(object):
+#     def altered(self):
+#         print("PARENT altered()")
 
 
-class Child(Parent):
-    def altered(self):
-        print("CHILD, BEFORE PARENT altered()")
-        super(Child, self).altered()
-        print("CHILD, AFTER PARENT altered()")
+# class Child(Parent):
+#     def altered(self):
+#         print("CHILD, BEFORE PARENT altered()")
+#         super(Child, self).altered()
+#         print("CHILD, AFTER PARENT altered()")
 
 
-dad = Parent()
-son = Child()
-dad.altered()
-son.altered()
+# dad = Parent()
+# son = Child()
+# dad.altered()
+# son.altered()
+
+
+# ====================================================================
+# ====================================================================
+# ====================================================================
+
+
+class Character:
+    def __init__(self, name, power, health):
+        self.name = name
+        self.power = power
+        self.health = health
+
+
+class Hero(Character):
+    def __init__(self, weapon, name, power, health):
+        self.weapon = weapon
+        super(Hero, self).__init__(name, power, health)
+
+
+alina = Hero("pink gun", "alina", 3, 100)
+# alina.name >> woudlnt work, you have to initialize in your child class
+
+# after line 288 now it should work
+print(alina.power)
