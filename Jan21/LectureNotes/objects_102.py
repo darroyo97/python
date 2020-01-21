@@ -213,6 +213,6 @@
 
 # my_string = VString("hello")
 # print(my_string)
-
+# print(my_string.capitalize())
 # reverse_string = my_string.reverse("hello")
 # print(reverse_string)
