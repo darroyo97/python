@@ -174,27 +174,45 @@
 
 # ====================================================================
 # ====================================================================
+# # ====================================================================
+# class Person:
+#     def __init__(self, name):
+#         self.name = name
+#         self.count = 0
+
+#     def greet(self):
+#         self._greet()
+
+#     def _greet(self):
+#         self.count += 1
+#         if self.count > 1:
+#             print("Stop being so nice")
+#             self.__reset_count()
+#         else:
+#             print("Hello", self.name)
+
+#     def __reset_count(self):
+#         self.count = 0
+
+
+# alex = Person("alex")
+
+# alex.greet()
+
 # ====================================================================
-class Person:
-    def __init__(self, name):
-        self.name = name
-        self.count = 0
+# ====================================================================
+# ====================================================================
 
-    def greet(self):
-        self._greet()
-
-    def _greet(self):
-        self.count += 1
-        if self.count > 1:
-            print("Stop being so nice")
-            self.__reset_count()
-        else:
-            print("Hello", self.name)
-
-    def __reset_count(self):
-        self.count = 0
+# class VString(str):
+#     def reverse(self, name):
+#         rstring = ""
+#         for char in name:
+#             rstring = char + rstring
+#         return rstring
 
 
-alex = Person("alex")
+# my_string = VString("hello")
+# print(my_string)
 
-alex.greet()
+# reverse_string = my_string.reverse("hello")
+# print(reverse_string)
