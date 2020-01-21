@@ -56,11 +56,29 @@
 # outside a class is called a function, inside a class its called a method
 
 
-class Greeting:
-    def say_hello(self):
-        print("Hello there!")
+# class Greeting:
+#     def say_hello(self):
+#         print("Hello there!")
 
 
-newGreetingObj = Greeting()
+# newGreetingObj = Greeting()
 
-newGreetingObj.say_hello()
+# newGreetingObj.say_hello()
+
+
+# class example
+# create a class students, that says good morning to each student
+
+class Student:
+    def greeting(self):
+        print("Good morning")
+
+
+daniela = Student()
+daniela.greeting()
+
+alex = Student()
+alex.greeting()
+
+juan = Student()
+juan.greeting()
