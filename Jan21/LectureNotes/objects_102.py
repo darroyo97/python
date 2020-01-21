@@ -12,3 +12,10 @@
 # objects - way to represent real life
 #attributes = properties
 #behavior - functionality
+
+# class- container that defines your object
+# example
+# class Student:
+#   properties(attributes):
+# ....
+#   functions(behavior)
