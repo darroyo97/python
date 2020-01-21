@@ -49,3 +49,18 @@
 # .
 # .
 # Object(child)
+
+# ================================================================================
+# ================================================================================
+# ================================================================================
+# outside a class is called a function, inside a class its called a method
+
+
+class Greeting:
+    def say_hello(self):
+        print("Hello there!")
+
+
+newGreetingObj = Greeting()
+
+newGreetingObj.say_hello()
