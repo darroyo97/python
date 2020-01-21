@@ -120,14 +120,15 @@ class Student:
         self.name = name
         # ^ called an instance variable
         self.lname = lname
+        print(f'Hello there {self.name} {self.lname}')
 
 
 student1 = Student("daniela", "arroyo")
+# print(student1.name)
+# print(student1.lname)
+
 # alina = Student("alina")
 # joe = Student("joe")
-
-print(student1.name)
-print(student1.lname)
 # still prints daniela, just for clear understanding on my part
 # print(alina.name)
 # print(joe.name)
