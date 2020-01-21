@@ -123,12 +123,11 @@ class Student:
         print(f'Hello there {self.name} {self.lname}')
 
 
-student1 = Student("daniela", "arroyo")
+daniela = Student("daniela", "arroyo")
 # print(student1.name)
 # print(student1.lname)
 
 # alina = Student("alina")
 # joe = Student("joe")
-# still prints daniela, just for clear understanding on my part
 # print(alina.name)
 # print(joe.name)
