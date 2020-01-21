@@ -19,3 +19,19 @@
 #   properties(attributes):
 # ....
 #   functions(behavior)
+
+
+# Abstactions - limit your attributes and functions to only items that pertain to the program
+# encapsulation - limit access to data. only functions and classes that need access can have access.
+# controlling access to data
+# can only access data through public functions(interface)
+# class Student:
+
+# properties(attributes):
+# .
+# . private properties
+# .
+# functions(behavior)
+# .
+# . public functions
+# . private functions
