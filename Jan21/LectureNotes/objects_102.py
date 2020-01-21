@@ -35,3 +35,17 @@
 # .
 # . public functions
 # . private functions
+
+
+# Inheritance
+# Child class inherits all of the properties and functions of parent class
+# -Reusibility
+# -Child class can extend on properties and functions
+# -Reusabilty + Extensibility
+# Parent
+
+# Object (parent)
+# .
+# .
+# .
+# Object(child)
