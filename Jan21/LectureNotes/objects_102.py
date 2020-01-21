@@ -69,16 +69,61 @@
 # class example
 # create a class students, that says good morning to each student
 
+# class Student:
+#     def greeting(self):
+#         print("Good morning")
+
+
+# daniela = Student()
+# daniela.greeting()
+
+# alex = Student()
+# alex.greeting()
+
+# juan = Student()
+# juan.greeting()
+
+# working with constructors
+# A constructor is a special kind of method that Python calls
+# when it instantiates an object by using definitions found in your class
+
+# initializing (assigning value to) any instance variables that the object will need when it starts
+# perform start-up tasks
+
+# class Student:
+#     def __init__(self):
+#         print("consturctor is called")
+
+#     def greeting(self):
+#         print("good morning")
+
+
+# Student()
+
+
+# class Animal:
+#     def __init__(self, name):
+#         self.name = name
+
+
+# dog = Animal("dog")
+# cat = Animal("cat")
+# horse = Animal("horse")
+
+# print(dog.name)
+# print(cat.name)
+# print(horse.name)
+
 class Student:
-    def greeting(self):
-        print("Good morning")
+    def __init__(self, name):
+        self.name = name
 
 
-daniela = Student()
-daniela.greeting()
+student1 = Student("daniela")
+alina = Student("alina")
+joe = Student("joe")
 
-alex = Student()
-alex.greeting()
-
-juan = Student()
-juan.greeting()
+print(student1.name)
+# still prints daniela, just for clear understanding on my part
+print(alina.name)
+print(joe.name)
