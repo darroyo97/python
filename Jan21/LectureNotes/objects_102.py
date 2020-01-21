@@ -115,15 +115,19 @@
 # print(horse.name)
 
 class Student:
-    def __init__(self, name):
+    # def __init__(self, name):
+    def __init__(self, name, lname):
         self.name = name
+        # ^ called an instance variable
+        self.lname = lname
 
 
-student1 = Student("daniela")
-alina = Student("alina")
-joe = Student("joe")
+student1 = Student("daniela", "arroyo")
+# alina = Student("alina")
+# joe = Student("joe")
 
 print(student1.name)
+print(student1.lname)
 # still prints daniela, just for clear understanding on my part
-print(alina.name)
-print(joe.name)
+# print(alina.name)
+# print(joe.name)
