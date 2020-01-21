@@ -6,11 +6,11 @@
 
 # Object oriented Programming
 
-#-Objects, classes, abstraction, encapsulation, inheritance, polymorphism
+# -Objects, classes, abstraction, encapsulation, inheritance, polymorphism
 
 # objects - way to represent real life
-#attributes = properties
-#behavior - functionality
+# attributes = properties
+# behavior - functionality
 
 # class- container that defines your object
 # example
@@ -216,3 +216,56 @@
 # print(my_string.capitalize())
 # reverse_string = my_string.reverse("hello")
 # print(reverse_string)
+
+# Inheritance
+# 3 ways that the parent and child classes can interact:
+# Actions on the child imply an action on the parent.
+# class Parent(object):
+#     def implicit(self):
+#         print("PARENT implicit()")
+
+
+# class Child(Parent):
+#     pass
+
+
+# dad = Parent()
+# son = Child()
+# dad.implicit()
+# son.implicit()
+
+# Actions on the child override the action on the parent.
+# class Parent(object):
+#     def override(self):
+#         print("PARENT override()")
+
+
+# class Child(Parent):
+#     def override(self):
+#         print("CHILD override()")
+
+
+# dad = Parent()
+# son = Child()
+# dad.override()
+# son.override()
+
+# Actions on the child alter the action on the parent.
+
+
+class Parent(object):
+    def altered(self):
+        print("PARENT altered()")
+
+
+class Child(Parent):
+    def altered(self):
+        print("CHILD, BEFORE PARENT altered()")
+        super(Child, self).altered()
+        print("CHILD, AFTER PARENT altered()")
+
+
+dad = Parent()
+son = Child()
+dad.altered()
+son.altered()
