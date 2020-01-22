@@ -17,17 +17,12 @@ class Bank:
 
     def open_new_account(self, fname, lname, mname, type, status, balance):
         if balance >= 100:
-            # create an account holder
             account = AccountHolder(fname, lname, mname, type, status, balance)
             self.accounts.append(account)
             return print(f'{type } account has been open for {fname} {mname} {lname} with a balance of {balance}')
-            # then we going to store it into our list of accounts
-            # return a message to user if it was succesful
         else:
-            return "Insufficient Funds, to open an account myst have deposit of at least $100"
+            return "Insufficient Funds, to open an account must have deposit of at least $100"
 
-            # definition of main that includes a while loop with menu of things user wants to do
-            # main()
     def show_members(self):
         for members in self.accounts:
             print(
@@ -50,9 +45,9 @@ def main():
             lname = input("What is the last name? ")
             type = input("What would you like to open? (Checking or Saving)")
             balance = int(input("Amount you wish to deposit? "))
-
-            wellsfargo.open_new_account(
+            response = wellsfargo.open_new_account(
                 fname, lname, mname, type, "open", balance)
+            print(response)
         elif (action == 2):
             wellsfargo.show_members()
         elif (action == 6):
